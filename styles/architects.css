@@ -87,8 +87,19 @@ nav li a{
     .teams-title{
         font-size: 2.8rem;
     }
+    .facts-card-container{
+        display:flex;
+        justify-content: space-around;
+    }
 
-
+.facts-card-container.card{
+    border-radius: 8px;
+    border:1px solid #ff900e;
+    text-align: center;
+}
+.facts-card-container.card-stats{
+font-size: 2.8rem;
+}
 
 
 
